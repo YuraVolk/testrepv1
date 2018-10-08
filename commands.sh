@@ -6,7 +6,7 @@ sendraw,
                                                                                 
 (                                                                               
                                                                                 
-ffmpeg -i input_video.mp4 -ss 00:00:30.0 -t 00:00:10.00 -async 1 cut.mp4        
+ffmpeg -i input_video.mp4 -ss 00:00:30.0 -t 00:00:10.00 cropped.mp4        
                                                                                 
 convert plate.svg -resize 50% -depth 8 -background transparent plate.png        
                                                                                 
