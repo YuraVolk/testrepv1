@@ -12,7 +12,7 @@ convert -depth 8 -background none -resize 50% plate.svg plate.png
                                                                                 
 ffmpeg -i cropped.mp4 -i plate.png -filter_complex "[0:v][1:v] overlay=0:446:enable=between(t\,2\,9)" -c:a copy plated.mp4
 
-ffmpeg -i plated.mp4 -vf drawtext="fontfile=Arial.ttf:text='Last Test':fontsize=20:fontcolor=black:x=200:y=476:enable='between(t\,3\,9)'" -c:a copy out.mp4
+ffmpeg -i plated.mp4 -vf drawtext="fontfile=Arial.ttf:text='Last Test':fontsize=20:fontcolor=black:x=200:y=476:enable='between(t\,3\,9)'" -c:a copy result.mp4
                                                                                 
 )                                                                               
             
