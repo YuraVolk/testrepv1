@@ -1,13 +1,13 @@
                                                                                
 <svg width="1440px" height="200px"> 
-  
-<rect fill="rgba(222,222,222,0.5)" height="160" width="1440" y="20" x="0"/>
 
 <rect x="51" y="1" width="180" height="180" stroke="gray" stroke-dasharray="10 5" fill="tomato" stroke-width="2 opacity="0.75"/>
   
 <circle cx="359" cy="91" r="90" stroke="gray" fill="lightblue" stroke-dasharray="10 5" stroke-width="2" opacity="0.75"/>
   
 <polygon points="250,43 340,199 160,199" stroke="darkgray" fill="lightgreen" stroke-width="4" opacity="0.75"/>
+
+<rect fill="rgba(222,222,222,0.5)" height="160" width="1440" y="20" x="0"/>
   
 </svg>                                                                          
         
