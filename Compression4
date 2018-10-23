@@ -1,0 +1,1 @@
+convert sunset.cr2 -depth 16 sunset.png
