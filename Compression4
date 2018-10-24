@@ -1,1 +1,8 @@
 convert sunset.cr2 -depth 16 sunset.png
+convert sunset.cr2 -depth 8 sunset.png
+convert sunset.cr2 -define jpeg:lossless=true sunset.jpeg
+convert sunset.cr2 -define webp:lossless=true sunset.webp
+convert sunset.cr2 -quality 30 sunset.webp
+convert sunset.cr2 -quality 60 sunset.webp 
+convert sunset.cr2 -quality 30 sunset.jpeg
+convert sunset.cr2 -quality 60 sunset.jpeg 
