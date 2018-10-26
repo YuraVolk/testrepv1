@@ -6,3 +6,4 @@ convert sunset.cr2 -depth 8 -quality 30 sunset.webp
 convert sunset.cr2 -depth 8 -quality 60 sunset.webp 
 convert sunset.cr2 -depth 8 -quality 30 sunset.jpeg
 convert sunset.cr2 -depth 8 -quality 60 sunset.jpeg 
+convert sunset.cr2 -depth 8 -quality 70 sunset.jpeg 
